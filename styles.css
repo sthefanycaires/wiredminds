@@ -54,5 +54,7 @@ h1 {
     display: flex;
     justify-content: center;
   }
-  
+  .logo-container img {
+  margin: 40px 0px 0px 0px;
+  }
 }
