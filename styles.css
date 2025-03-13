@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sora:wght@200&display=swap");
+
+body {
+  background-image: url(./assets/comingsoon-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container img {
+  height: 40px;
+  position: absolute;
+  margin: 40px 0px 0px 40px;
+}
+
+.headline {
+  line-height: 120%;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: clamp(16px, 4vw, 40px);
+}
+
+h1 {
+  font-family: "Sora", sans-serif;
+  font-size: clamp(32px, 10vw, 126px);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.gif {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+}
